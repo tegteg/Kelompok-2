@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textAlignment="center"/>
+
+        //Disini adalah tempat fragment badan diletakkan
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/bodies_container"
+            ></FrameLayout>
+
+        //Disini adalah tempat fragment celana diletakkan
+
+        <FrameLayout
+            android:id="@+id/legs_container"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"></FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
